@@ -1,0 +1,15 @@
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 1rem;
+  border: rgb(0, 140, 255) 2px solid;
+  margin-left: 10px;
+}
+
+.avatar_image {
+  border-radius: 1rem;
+}
+
+.avatar_image:hover {
+  opacity: 0.5;
+}

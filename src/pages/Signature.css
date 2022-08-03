@@ -1,0 +1,111 @@
+.signatureCanvas {
+  border: 1px solid black;
+  width: 1000px;
+  min-width: 500px;
+  height: 50vh;
+  background-color: white;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.911);
+}
+
+.signature {
+  padding-left: 10px;
+}
+
+.signature_pad {
+  background-color: rgb(122, 122, 122);
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signaturePad_heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.ionTitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.menu {
+  background-color: rgb(122, 122, 122);
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ionButton {
+  color: white;
+  background-color: rgb(38, 131, 253);
+  width: fit-content;
+  padding: 5px;
+  border-radius: 2rem;
+}
+
+.signButton {
+  color: white;
+  background-color: rgb(38, 253, 74);
+  width: fit-content;
+  padding: 5px;
+  border-radius: 2rem;
+}
+
+.buttons {
+  background-color: rgb(29, 29, 28);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-items: center;
+}
+
+.buttons > button {
+  color: white;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.button_close {
+  background-color: rgb(247, 68, 68);
+}
+
+.button_clear {
+  background-color: rgb(38, 131, 253);
+}
+.button_save {
+  background-color: rgb(38, 253, 74);
+}
+
+Popup button {
+  background-color: blue;
+}
+
+.component-icon {
+  border-radius: 50%;
+
+  padding: 7px;
+  height: 18px;
+  width: 18px;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.component-icon-dark {
+  background: var(--ion-color-step-850, #27323e);
+  color: var(--ion-item-background, #fff);
+}

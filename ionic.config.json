@@ -1,0 +1,7 @@
+{
+  "name": "Signature-CameraApplication",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
